@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cardine8/public_html/remedies-cms
+    - /bin/cp -r * $DEPLOYPATH
